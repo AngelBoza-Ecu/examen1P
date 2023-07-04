@@ -33,7 +33,7 @@ def main():
     fig, ax = plt.subplots()
     ax.plot(datos_qmax, datos_pr, marker="o", color="r")
 
-    ax.set(xlabel="Pwf", ylabel="Qo", title="Pwf vs Qo")
+    ax.set(xlabel="Qo (std/d)", ylabel="Pwf (psi)", title="Pwf vs Qo")
 
     sheet.pictures.add(
         fig,
